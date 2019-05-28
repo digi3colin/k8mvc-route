@@ -1,0 +1,19 @@
+{
+  "name": "k8mvc-route",
+  "version": "0.0.6",
+  "description": "The router for K8MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digi3colin/k8mvc-route.git"
+  },
+  "author": "Shiba Komino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digi3colin/k8mvc-route/issues"
+  },
+  "homepage": "https://github.com/digi3colin/k8mvc-route#readme"
+}
