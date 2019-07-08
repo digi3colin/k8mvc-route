@@ -39,6 +39,7 @@ class RouteList{
       const callback = async(request, reply) => {
         const {resolveRoute} = K8.require('helper/HelperRoute');
         request.params.action = x.action;
+        request.params.controller = x.controller;
         return await resolveRoute(K8.require(x.controller), request, reply);
       };
 
