@@ -1,6 +1,6 @@
 {
   "name": "k8mvc-route",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "The router for K8MVC",
   "main": "index.js",
   "scripts": {

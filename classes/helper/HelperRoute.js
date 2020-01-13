@@ -2,7 +2,7 @@ const resolve = async(Controller, request, reply) => {
   //import controller
   const c = new Controller(request, reply);
   await c.execute();
-  return c.output;
+  return (typeof c.output === 'string') ? c.output : JSON.stringify(c.output);
 };
 
 module.exports = {
